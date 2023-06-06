@@ -169,10 +169,8 @@ h4{
 }
 
 #presentation{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 420px;
     gap: 50px;
 }
 
@@ -195,7 +193,6 @@ h4{
     display: flex;
     flex-direction: row;
     gap: 50px;
-    flex-wrap: ;
 }
 
 
