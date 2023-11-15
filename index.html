@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index">
+    <meta name="keywords" content="portfolio roudy hajo, roudy hajo, hajo roudy, portfolio hajo roudy, portfolio developpeur web , portfolio informatique étudiant, étudiant en informatique, developpeur mobile, HTML, CSS, JavaSxript, PHP, React, Node js, kotlin, Golang, Python, SQL, developpeur à Nantes, IUT de Nantes, BUT Informatique">
     <meta name="description" content="Portfolio de Roudy Hajo étudiant en deuxième année de BUT Informatique à l'IUT de Nantes, Futsal, développement web coté client ou coté serveur, développement mobile">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="image/Roudy.jpg" type="image/x-icon">
-    <title>Roudy Hajo | Portfolio</title>
+    <title>Roudy Hajo - Portfolio</title>
 </head>
 <body>
-    <nav>
+
+    <header>
         <div class="logo">
             <p>Roudy Hajo</p>
         </div>
         <div class="bouton">
-            <a href="#parcours" >Présentation</a>
+            <a href="#parcours">Présentation</a>
             <a href="#comptetences">Comptetences</a>
             <a href="#realisation">Réalisations</a>
             <a href="#projetPersonnel">Projets</a>
+            <a href="#contacts">Contacts</a>
         </div>
-    </nav>
+    </header>
     
 
     <div class="intro">
@@ -31,7 +34,7 @@
         <div class="barre"></div>
         <div class="texte">
             <p style="color: rgb(228, 176, 53);">Bonjour !</p>
-            <p>Je m'appelle <a style="color: rgb(228, 176, 53);">Roudy Hajo</a> et je suis étudiant en première année de BUT informatique à l'IUT de Nantes.</p>
+            <p>Je m'appelle <a style="color: rgb(228, 176, 53);">Roudy Hajo</a> et je suis étudiant en deuxième année de BUT informatique à l'IUT de Nantes.</p>
             <p>Je suis ravi de vous accueillir sur mon portfolio.</p>
         </div>
     </div>
@@ -39,10 +42,10 @@
     <div id="parcours">
         <h1>Présentation</h1>
 
-        <div id="presentation" style="    display: grid; grid-template-columns: 1fr 420px; gap: 50px;">
+        <div id="presentation" style="display: grid; grid-template-columns: 1fr 420px; gap: 50px;">
             <div style="display: flex ;gap: 40px; flex-direction: column;">
                 <p>
-                    Je m'appelle Roudy Hajo, étudiant en première année de BUT Informatique à l'IUT de Nantes. Passionné par la technologie, j'ai choisi cette voie d'études pour développer mes compétences en programmation et en conception de logiciels.
+                    Je m'appelle Roudy Hajo, étudiant en deuxième année de BUT Informatique à l'IUT de Nantes. Passionné par la technologie, j'ai choisi cette voie d'études pour développer mes compétences en programmation et en conception de logiciels.
                 </p>
                 <p>
                     En dehors des cours, je pratique le futsal depuis 6 ans et j'adore m'informer sur l'actualité, car je trouve important de rester connecté au monde qui nous entoure.
@@ -106,11 +109,13 @@
     
                 <div class="description">
                     <ul>
-                        <li><a style="font-weight: bold;">GoLang</a> (Ebitenv2)</li>
-                        <li><a style="font-weight: bold;">Python</a> (Numpy, Matplotlib.pyplot, Pandas)</li>
-                        <li><a style="font-weight: bold;">Kotlin</a> (JavaFX, JUnit)</li>
                         <li><a style="font-weight: bold;">HTML/CSS</a></li>
-                        <li><a style="font-weight: bold;">MySQL</a></li>
+                        <li><a style="font-weight: bold;">JavaScript</a> (React, Node.js)</li>
+                        <li><a style="font-weight: bold;">PHP</a> (Symfony)</li>
+                        <li><a style="font-weight: bold;">Kotlin / Java</a> (JavaFX, JUnit)</li>
+                        <li><a style="font-weight: bold;">Python</a> (Numpy, Matplotlib.pyplot, Pandas)</li>
+                        <li><a style="font-weight: bold;">GoLang</a> (Ebitenv2)</li>
+                        <li><a style="font-weight: bold;">SQL</a> (PLSQL)</li>
                     </ul>
                 </div>
             </div>
@@ -143,7 +148,7 @@
                 <div class="description">
                     <ul>
                         <li><a style="font-weight: bold;">Jardinage</a> (Plantation)</li>
-                        <li><a style="font-weight: bold;">Futsal</a> (depuis 6 ans)</li>
+                        <li><a style="font-weight: bold;">Futsal</a> (depuis 7 ans)</li>
                     </ul>
                 </div>
             </div>
@@ -187,10 +192,22 @@
                     <img src="image/LaMoustache.png" style="width: 450px; height: 255px;" >
                 </div>
 
-                <h4 style="text-align: center;"><a href="https://github.com/Fisail/Site_Web_Moustache">La moustache</a></h4>
+                <h4 style="text-align: center;"><a href="https://github.com/Fisail/Site_Web_Moustache" target="_blank">La moustache</a></h4>
 
                 <p>
                     Durant les cours d'ergonomie web, notre groupe a collaboré pour créer un site dédié à l'histoire de la moustache, son entretien et les produits associés. Nous avons appliqué les règles d'ergonomie que nous avons apprises en cours afin d'optimiser l'expérience utilisateur de notre site.
+                </p>
+            </div>
+
+            <div class="projet">
+                <div class="image">
+                    <img src="image/pickomino.jpg" style="width: 450px; height: 255px;" >
+                </div>
+
+                <h4 style="text-align: center;"><a href="https://github.com/Fisail/Pickomino" target="_blank">Pickomino</a></h4>
+
+                <p>
+                    A la fin de notre première année de BUT, nous avons réalisé un projet en groupe. Nous avons créé une application en kotlin et jvavafx qui permet de jouer au jeu de société Pickomino. Durant ce projet, nous avons appliquez le patron de conception MVC. 
                 </p>
             </div>
 
@@ -282,6 +299,56 @@
             </div>
 
         </div>
+    </div>
+
+    <div id="contacts">
+        <h1>Contacts</h1>
+
+        <div class="lescontacts">
+            <a class="contact" href="mailto:roudy.hajo2003@gmail.com" target="_blank">
+                <div class="image">
+                    <img src="image/enveloppe.png" style="width: 100px; height: 100px; margin: auto;">
+                </div>
+
+                <div class="contactDesc">
+                    <h4>roudy.hajo2003@gmail.com</h4>
+                </div>
+            </a>
+
+            
+            <a class="contact" href="https://www.linkedin.com/in/roudy-hajo-0b948b298/" target="_blank">
+                <div class="image">
+                    <img src="image/linkedin.png" style="width: 100px; height: 100px; margin: auto;">
+                </div>
+
+                <div class="contactDesc">
+                    <h4>Roudy Hajo</h4>
+                </div>
+            </a>
+
+
+            <a class="contact" href="https://github.com/roudy-h/" target="_blank">
+                <div class="image">
+                    <img src="image/github.png" style="width: 100px; height: 100px; margin: auto;">
+                </div>
+
+                <div class="contactDesc">
+                    <h4>roudy-h</h4>
+                </div>
+            </a>
+
+            <a class="contact" href="Roudy-Hajo-CV.pdf" target="_blank">
+                <div class="image">
+                    <img src="image/cv.png" style="width: 100px; height: 100px; margin: auto;">
+                </div>
+
+                <div class="contactDesc">
+                    <h4>CV</h4>
+                </div>
+            </a>
+            
+        </div>
+
     </div>
 
 </body>
